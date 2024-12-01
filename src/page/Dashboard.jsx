@@ -4,10 +4,10 @@ import React, { useEffect, useState } from 'react';
 import { toast } from 'react-hot-toast';
 import { MdLogout } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
-import BarChart from '../components/Barchart';
-import DateRangePicker from '../components/DateRangePicker';
-import LineChart from '../components/LineChart';
 import { server } from '../config/server';
+import BarChart from '../components/Barchart';
+import LineChart from "../components/LineChart"
+import DateRangePicker from "../components/DateRangePicker";
 
 const Dashboard = () => {
     const [data, setData] = useState([]);
